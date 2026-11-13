@@ -23,7 +23,7 @@
 <body>
 <header class="topbar"><div class="topbar-inner"><div class="brand"><svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h4l2-3h4l2 3h4a1 1 0 0 1 1 1v13H3V7a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="4"/></svg><div><strong>VRC CAMERA</strong><span>キャプション作成ツール</span></div></div></div></header>
 <div class="page">
-  <div class="page-heading"><div><h1>キャプションをつくる</h1></div><p class="local-note"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>ブラウザ内で処理・送信なし</p></div>
+  <div class="page-heading"><div><h1>キャプションをつくる</h1></div></div>
   <main class="workbench caption">
     <section class="editor" aria-label="キャプションの入力">
       <div class="section-heading"><h2><span class="section-index">01</span>展示先</h2></div>
@@ -60,7 +60,6 @@
     <aside class="preview-panel" aria-label="画像の確認と保存">
       <div class="preview-heading"><h2>プレビュー</h2><span class="size">1024 × 1024 px</span></div>
       <div class="preview-stage"><div class="paper"><canvas id="out" width="1024" height="1024" role="img" aria-label="キャプション画像のプレビュー"></canvas><div class="empty-hint" id="emptyHint" aria-hidden="true"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6Z"/><path d="M14 3v5h4M9 12h6m-6 4h6"/></svg><strong>ここにキャプションを表示</strong><span>入力した内容がすぐに反映されます</span></div></div></div>
-      <p class="preview-tip">白背景 · 正方形 · タイトル下線は右端の余白まで</p>
       <div class="export-bar"><div class="export-row"><div><span class="filename-label">保存ファイル名</span><div class="filename" id="fname" aria-live="polite">1-1_setting.png</div></div><button type="button" class="primary" id="save"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></svg>PNGを保存</button></div><div class="export-actions"><p class="status" id="saveStatus" role="status"></p><button type="button" class="text-button" id="blank">白紙を保存</button></div></div>
     </aside>
   </main>
